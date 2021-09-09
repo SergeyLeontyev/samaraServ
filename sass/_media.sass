@@ -1,0 +1,458 @@
+@media screen and ( max-width: 1199px )
+	.block
+		max-width: 960px
+		&-why
+			.block-text
+				max-width: 460px
+		&-main
+			&__text
+				.block-text
+					max-width: 300px
+		&-stages
+			.btn
+				margin-right: 0
+				margin-left: 28px
+	.text
+		&-title
+			font-size: 22px
+			line-height: 24px
+		&-descr
+			font-size: 14px
+			line-height: 22px
+	.form
+		input
+			max-width: 230px
+		.btn
+			margin: 32px auto 30px
+	.why
+		&-points
+			max-width: 450px
+			&__li
+				font-size: 18px
+    line-height: 22px
+		&-img
+			max-width: 420px
+			height: auto
+		&-cards
+			max-width: 186px
+			&__text
+				font-size: 14px
+    line-height: 18px
+
+	.service
+		&-card
+			max-width: 230px
+			height: auto
+			min-height: 236px
+			&__text
+				padding: 16px 16px 16px 16px
+
+	.work
+		&-slider
+			max-width: none
+			&__img, .feedback-slider__img
+				width: 297px !important
+				height: auto!important
+	.slider
+		&-arrow
+			top: auto
+			bottom: -85px
+			&-left
+				left: 37%
+			&-right
+				right: 37%
+
+	.stages
+		&-card
+			max-width: 300px
+			&__descr
+				font-size: 14px
+				line-height: 18px
+
+@media screen and ( max-width: 991px )
+	.header
+		margin: 0
+		padding: 24px 0px 0px 0px
+		top: 0
+		&-logo
+			width: 140px
+			height: 54px
+			.sprite
+				&-logo
+					width: 100%
+					height: 100%!important
+		&-nav
+			flex-direction: column
+			align-items: center
+			height: auto
+			justify-content: flex-start	
+			&__li
+				padding: 0
+				width: 100%
+				text-align: center
+				a
+					display: block
+					padding: 8px
+			.link-bfr
+				padding: 16px
+				position: relative
+				transition: all 0.5s ease
+				&:before
+					position: absolute
+					content: ''
+					transition: all 0.5s ease
+					width: 12px
+					height: 12px
+					clip-path: polygon(0 0, 100% 0, 50% 50%)
+					background-color: $black
+					right: -16px
+					top: 22px 
+		&-adress
+			&__text
+				font-size: 14px
+				line-height: 16px
+		&-contacts
+			&__phone
+				font-size: 14px
+				line-height: 16px
+		.sprite
+			&-contacts
+				width: 24px
+				height: 24px
+	.drop-menu
+		position: relative
+		display: none
+		&-active
+			border: none
+			display: flex
+			flex-direction: column
+			top: 0
+			border-radius: 0
+			background: transparent
+			&__li
+				a
+					color: $orange
+					&:hover
+						color: $black
+		&__li
+			width: 100%
+			border: none
+			padding: 0
+			min-height: auto
+			.link-img
+				display: none
+	.block
+		max-width: 720px
+		&-header
+			max-width: none!important
+			padding: 0px 15px
+			margin-bottom: 24px
+		&-nav
+			transition: all 0.7s ease
+			overflow: hidden
+			opacity: 0
+			height: 0
+			margin: 0
+			z-index: -1
+			background: $white
+			&-active
+				padding-top: 40px
+				height: calc( 100vh - 102px )
+				opacity: 1
+		&-main
+			&__bg
+				width: 50%
+				bottom: auto
+				top: 0
+				right: -38px
+			&__text
+				flex-wrap: wrap
+				.block-text
+					margin-bottom: 32px
+					&:last-child
+						margin-bottom: 0
+		&-why
+			.block
+				&-text
+					max-width: 340px
+		&-service
+			justify-content: space-around
+	.section
+		&-main
+			margin-top: 56px
+		&-subtitle
+			font-size: 32px
+			line-height: 40px
+		&-title
+			font-size: 48px
+			&-form
+				font-size: 32px
+		&-descr
+			font-size: 20px
+			line-height: 24px
+			br
+				display: none
+		&-why
+			&-three
+				.why-cards
+					max-width: 280px
+					margin-bottom: 32px
+					&:last-child
+						margin-bottom: 0
+				.block
+					&-why
+						justify-content: space-around
+		&-service
+			padding-bottom: 80px
+	.form
+		max-width: 560px
+		input
+			max-width: 270px
+			margin-bottom: 16px
+		.btn
+			margin: 16px auto 30px
+	.policy
+		margin-top: 12px
+
+	.btn
+		&-header
+			display: none
+	.burger
+		&-menu
+			display: block
+	
+	.why
+		&-points
+			max-width: 410px
+			&__li
+				font-size: 16px
+    line-height: 20px
+		&-img
+			max-width: 300px
+			height: 212px
+		&-warning
+			&__text
+				font-size: 21px
+    line-height: 25px
+	.service
+		&-card
+			max-width: 279px
+			margin-bottom: 32px
+
+	.work
+		&-slider
+			max-width: none
+			&__img, .feedback-slider__img
+				width: 320px !important
+				height: auto!important
+				margin: 0px 20px
+	.slider
+		&-arrow
+			&-left
+				left: 34%
+			&-right
+				right: 34%
+				
+
+@media screen and ( max-width: 767px )
+	.block
+		max-width: 540px
+		&-main
+			&__bg
+				width: 86%
+			&__text
+				.block-text
+					max-width: none
+		&-why
+			.block-text
+				max-width: none
+				margin-bottom: 32px
+				&:last-child
+					margin-bottom: 0px
+		&-stages
+			.btn
+				margin: 0 auto 64px
+				width: 271px
+
+			.mr40
+				margin-right: 40px
+
+	.section
+		&-why
+			&-three
+				.why-cards
+					max-width: 250px
+					margin-bottom: 32px
+					&:last-child
+						margin-bottom: 0
+				.block
+					&-why
+						justify-content: space-around
+
+	.why
+		&-points
+			max-width: none
+		&-img
+			display: none
+		&-warning
+			&__text
+				font-size: 15px
+    line-height: 18px
+	.sprite
+		&-warning
+			width: 48px
+			height: 48px
+
+	.form
+		max-width: none
+		input
+			max-width: 265px
+			margin-bottom: 16px
+		.btn
+			margin: 16px auto 30px
+
+	.stages
+		&-card
+			max-width: 250px
+	
+	.service
+		&-card
+			max-width: 250px
+			min-height: 250px
+			margin-bottom: 32px
+
+
+	.work
+		&-slider
+			max-width: none
+			&__img, .feedback-slider__img
+				width: 250px !important
+				height: auto!important
+				margin: 0px 10px
+	.slider
+		&-arrow
+			&-left
+				left: 29%
+			&-right
+				right: 29%
+
+	
+
+@media screen and ( max-width: 639px )
+	.header
+		&-contacts
+			display: none
+	
+
+
+@media screen and ( max-width: 575px )
+	.block
+		max-width: 320px
+		&-main
+			.section-title
+				margin-bottom: 16px
+			&__bg
+				width: 100%
+				right: 0
+				top: 0
+				position: static
+				margin-bottom: 16px
+		&-stages
+			.mr40
+				margin-right: 0
+		&-work
+			max-width: 290px
+		&-feedback 
+			max-width: 290px
+		&-footer
+			padding: 16px 0px
+	.section
+		&-subtitle
+			font-size: 24px
+			line-height: 32px
+			text-align: center
+		&-title
+			font-size: 32px
+			&-form
+				font-size: 24px
+				line-height: 28px
+		&-why
+			&-three
+				.why-cards
+					max-width: none
+					margin-bottom: 32px
+					&:last-child
+						margin-bottom: 0
+				.block
+					&-why
+						justify-content: center
+		&-service
+			padding-bottom: 112px
+	
+	.form
+		justify-content: center
+		&-box
+			max-width: none
+			width: 100%
+		input
+			max-width: none
+			width: 100%
+		.btn
+			max-width: none
+	.stages
+		&-card
+			max-width: none
+			&__descr 
+    font-size: 16px
+    line-height: 24px
+	.service
+		&-card
+			max-width: none
+			&:last-child
+				margin-bottom: 0
+			&__text
+				br
+					display: none
+	.why
+		&-warning
+			flex-direction: column
+			&__text
+				text-align: center
+				br
+					display: none
+
+
+	.work
+		&-slider
+			max-width: none
+			&__img, .feedback-slider__img
+				width: 270px !important
+				height: auto!important
+				margin: 0px 10px
+	.slider
+		&-arrow
+			&-left
+				left: 10%
+			&-right
+				right: 10%
+
+
+	.footer
+		padding: 0
+		flex-direction: column-reverse
+		align-items: center
+		.map
+			position: relative
+			height: 400px
+	
+	.popup
+		padding: 48px	16px 32px 16px
+
+
+
+@media screen and ( max-width: 345px )
+	.block
+		max-width: none
+		padding: 0px 15px
+	
+	
